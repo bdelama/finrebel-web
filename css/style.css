@@ -264,6 +264,29 @@ h1.underline {
     background-color: white;
 }
 
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+}
+
+.ribbon {
+    font: bold 15px sans-serif;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: #e44043;
+    color: #fff;
+  }
+
 @media screen and (max-width: 777px) {
 
 	nav {
