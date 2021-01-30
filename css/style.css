@@ -7,6 +7,26 @@ body, html {
 	padding: 0;
 }
 
+main {
+	padding-top: 2rem;
+}
+
+.banner {
+	background: white;
+	color: black;
+	/* height: 2rem; */
+	padding: 1.4rem;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	z-index: 9999999;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+}
+
 h1 {
 	font-size: 6em;
 	font-weight: bolder;
@@ -24,14 +44,12 @@ p {
 
 nav {
 	align-items: center;
-	background-color: inherit;
+	background-color: #212121;
 	color: #f1f1f1;
 	display: flex;
 	height: 72px;
 	justify-content: center;
 	left: 0;
-	position: fixed;
-	top: 0;
 	width: 100%;
 	z-index: 5;
 }
@@ -56,7 +74,7 @@ nav a.active:before {
 	top: 52px;
 }
 
-header {
+#home {
 	align-items: center;
 	background-color: #212121;
 	box-sizing: border-box;
@@ -67,12 +85,12 @@ header {
 	height: 100vh;
 	position: relative;
 }
-header h1 {
+#home h1 {
 	font-size: 7em;
 	text-align: center;
 }
 
-header h2 {
+#home h2 {
 	font-size: 4em;
 	font-weight: 300;
 	text-align: center;
@@ -80,11 +98,11 @@ header h2 {
 	padding: 0;
 }
 
-header .discover {
+#home .discover {
 	margin-top: 64px;
 	z-index: 3;
 }
-header .discover a {
+#home .discover a {
 	color: #f1f1f1;
 	text-decoration: none;
 }
@@ -386,11 +404,11 @@ h1.underline:before {
 		width: 75%;
 	}
 
-	header h1 {
+	#home h1 {
 		font-size: 4em;
 	}
 
-	header h2 {
+	#home h2 {
 		font-size: 2em;
 	}
 
