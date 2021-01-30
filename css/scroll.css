@@ -1,5 +1,5 @@
-/*  Mouse scroll animation.  
- *  
+/*  Mouse scroll animation.
+ *
  *  Thanks to @Naoya for the pen. Original code from:
  *  https://codepen.io/nxworld/pen/OyRrGy
  */
@@ -12,7 +12,7 @@
   position: absolute;
   width: 24px;
   height: 24px;
-  margin-left: 42px;
+  margin-left: 48px;
   border-left: 1px solid #999;
   border-bottom: 1px solid #999;
   -webkit-transform: rotate(-45deg);
@@ -20,6 +20,7 @@
   -webkit-animation: sdb04 2s infinite;
   animation: sdb04 2s infinite;
   box-sizing: border-box;
+  display: flex;
 }
 @-webkit-keyframes sdb04 {
   0% {
